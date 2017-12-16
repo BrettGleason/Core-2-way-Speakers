@@ -31,6 +31,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Core 2-way-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -133,18 +134,6 @@ F 3 "" H 3300 4000 50  0001 C CNN
 	1    3300 4000
 	0    1    1    0   
 $EndComp
-Text GLabel 1600 2100 0    60   Input ~ 0
-INPUT+
-Text GLabel 1600 2600 0    60   Input ~ 0
-INPUT-
-Text GLabel 4850 2100 2    60   Output ~ 0
-TWEETER+
-Text GLabel 4850 2600 2    60   Output ~ 0
-TWEETER-
-Text GLabel 5300 4400 2    60   Output ~ 0
-WOOFER+
-Text GLabel 5300 5400 2    60   Output ~ 0
-WOOFER-
 Connection ~ 4100 2600
 Wire Wire Line
 	4100 2450 4100 2600
@@ -153,14 +142,14 @@ Connection ~ 4400 5400
 Wire Wire Line
 	4400 5350 4400 5400
 Wire Wire Line
-	1600 2600 4850 2600
+	1250 2600 5700 2600
 Wire Wire Line
 	2100 5400 2100 2600
 Wire Wire Line
-	5300 5400 2100 5400
+	2100 5400 5700 5400
 Connection ~ 4400 4400
 Wire Wire Line
-	4400 4400 5300 4400
+	4400 4400 6000 4400
 Connection ~ 3900 4000
 Wire Wire Line
 	3900 3400 3900 4000
@@ -181,7 +170,7 @@ Connection ~ 4100 2100
 Wire Wire Line
 	4100 2150 4100 2100
 Wire Wire Line
-	3600 2100 4850 2100
+	3600 2100 5950 2100
 Connection ~ 3100 2100
 Wire Wire Line
 	2900 2100 3300 2100
@@ -195,7 +184,52 @@ Wire Wire Line
 Wire Wire Line
 	2600 1650 2400 1650
 Wire Wire Line
-	1600 2100 2600 2100
+	1100 2100 2600 2100
 Wire Wire Line
 	4400 4750 4400 5050
+$Comp
+L Conn_01x02 J2
+U 1 1 5A3553A6
+P 6150 2100
+F 0 "J2" H 6150 2200 50  0000 C CNN
+F 1 "Tweeter Connection" H 6150 1900 50  0000 C CNN
+F 2 "" H 6150 2100 50  0001 C CNN
+F 3 "" H 6150 2100 50  0001 C CNN
+	1    6150 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J3
+U 1 1 5A355487
+P 6200 4400
+F 0 "J3" H 6200 4500 50  0000 C CNN
+F 1 "Woofer Connection" H 6200 4200 50  0000 C CNN
+F 2 "" H 6200 4400 50  0001 C CNN
+F 3 "" H 6200 4400 50  0001 C CNN
+	1    6200 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x02 J1
+U 1 1 5A3555A6
+P 900 2100
+F 0 "J1" H 900 2200 50  0000 C CNN
+F 1 "Audio In" H 900 1900 50  0000 C CNN
+F 2 "" H 900 2100 50  0001 C CNN
+F 3 "" H 900 2100 50  0001 C CNN
+	1    900  2100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 2200 1250 2200
+Wire Wire Line
+	1250 2200 1250 2600
+Wire Wire Line
+	5950 2200 5700 2200
+Wire Wire Line
+	5700 2200 5700 2600
+Wire Wire Line
+	6000 4500 5700 4500
+Wire Wire Line
+	5700 4500 5700 5400
 $EndSCHEMATC
