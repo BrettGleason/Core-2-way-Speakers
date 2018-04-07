@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Core-2-Way)(type KiCad)(uri "$(KIPRJMOD)/Core-2-Way.pretty")(options "")(descr ""))
+)
