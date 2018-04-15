@@ -114,7 +114,7 @@
   )
 
   (module Core-2-Way:DMPC-8.2 (layer F.Cu) (tedit 5AD3573D) (tstamp 5AD54D05)
-    (at 119.38 41.91)
+    (at 130.81 39.37)
     (path /5A243DCE)
     (fp_text reference C1 (at -20.32 -11.43) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -133,7 +133,7 @@
   )
 
   (module Core-2-Way:DMPC-0.10 (layer F.Cu) (tedit 5AD35666) (tstamp 5AD54D0F)
-    (at 60.96 58.42)
+    (at 76.2 59.69)
     (path /5A243F09)
     (fp_text reference C2 (at -5.08 -5.08) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -152,7 +152,7 @@
   )
 
   (module Core-2-Way:DMPC-15 (layer F.Cu) (tedit 5AD356F5) (tstamp 5AD54D19)
-    (at 132.08 86.36 270)
+    (at 139.7 86.36 270)
     (path /5A24409A)
     (fp_text reference C3 (at -25.4 -12.7 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -171,7 +171,7 @@
   )
 
   (module Core-2-Way:DMPC-1.0 (layer F.Cu) (tedit 5AD356AE) (tstamp 5AD54D23)
-    (at 76.2 36.83)
+    (at 81.28 34.29)
     (path /5A24413B)
     (fp_text reference C4 (at -12.7 -6.35) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -221,7 +221,7 @@
   )
 
   (module Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol (layer F.Cu) (tedit 0) (tstamp 5AD54D43)
-    (at 161.29 97.79 90)
+    (at 173.99 100.33 90)
     (descr "2-way 3.5mm pitch terminal block, Phoenix PT series")
     (path /5A3553A6)
     (fp_text reference J2 (at 1.75 -4.3 90) (layer F.SilkS)
@@ -252,7 +252,7 @@
   )
 
   (module Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol (layer F.Cu) (tedit 0) (tstamp 5AD54D53)
-    (at 161.29 68.58 90)
+    (at 173.99 82.55 90)
     (descr "2-way 3.5mm pitch terminal block, Phoenix PT series")
     (path /5A355487)
     (fp_text reference J3 (at 1.75 -4.3 90) (layer F.SilkS)
@@ -283,7 +283,7 @@
   )
 
   (module Core-2-Way:255-026 (layer F.Cu) (tedit 5AD354AD) (tstamp 5AD54D5D)
-    (at 160.02 46.99 270)
+    (at 171.45 52.07 270)
     (path /5A244310)
     (fp_text reference L1 (at -11.43 -8.89 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -302,7 +302,7 @@
   )
 
   (module Core-2-Way:255-278 (layer F.Cu) (tedit 5AD35620) (tstamp 5AD54D64)
-    (at 85.09 86.36)
+    (at 93.98 90.17)
     (path /5A2443D6)
     (fp_text reference L2 (at -29.21 -3.81) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -318,7 +318,7 @@
   )
 
   (module Core-2-Way:MI704 (layer F.Cu) (tedit 5AD357CA) (tstamp 5AD54D6E)
-    (at 68.58 48.26)
+    (at 81.28 49.53)
     (path /5A2434B6)
     (fp_text reference R1 (at -12.7 -5.08) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -337,7 +337,7 @@
   )
 
   (module Core-2-Way:MI650 (layer F.Cu) (tedit 5AD35796) (tstamp 5AD54D78)
-    (at 151.13 99.06 90)
+    (at 161.29 96.52 90)
     (path /5A243743)
     (fp_text reference R2 (at -12.7 -5.08 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
