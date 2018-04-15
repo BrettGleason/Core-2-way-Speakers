@@ -54,7 +54,7 @@ F 1 "6.0" V 2750 2100 50  0000 C CNN
 F 2 "Core-2-Way:MI704" V 2680 2100 50  0001 C CNN
 F 3 "" H 2750 2100 50  0001 C CNN
 	1    2750 2100
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R2
@@ -131,7 +131,7 @@ F 1 "3.5 mH" V 3375 4000 50  0000 C CNN
 F 2 "Core-2-Way:255-278" H 3300 4000 50  0001 C CNN
 F 3 "" H 3300 4000 50  0001 C CNN
 	1    3300 4000
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 Connection ~ 4100 2600
 Wire Wire Line
@@ -192,7 +192,7 @@ U 1 1 5A3553A6
 P 6150 2100
 F 0 "J2" H 6150 2200 50  0000 C CNN
 F 1 "Tweeter Connection" H 6150 1900 50  0000 C CNN
-F 2 "" H 6150 2100 50  0001 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 6150 2100 50  0001 C CNN
 F 3 "" H 6150 2100 50  0001 C CNN
 	1    6150 2100
 	1    0    0    -1  
@@ -203,7 +203,7 @@ U 1 1 5A355487
 P 6200 4400
 F 0 "J3" H 6200 4500 50  0000 C CNN
 F 1 "Woofer Connection" H 6200 4200 50  0000 C CNN
-F 2 "" H 6200 4400 50  0001 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 6200 4400 50  0001 C CNN
 F 3 "" H 6200 4400 50  0001 C CNN
 	1    6200 4400
 	1    0    0    -1  
@@ -214,7 +214,7 @@ U 1 1 5A3555A6
 P 900 2100
 F 0 "J1" H 900 2200 50  0000 C CNN
 F 1 "Audio In" H 900 1900 50  0000 C CNN
-F 2 "" H 900 2100 50  0001 C CNN
+F 2 "Terminal_Blocks:TerminalBlock_Pheonix_PT-3.5mm_2pol" H 900 2100 50  0001 C CNN
 F 3 "" H 900 2100 50  0001 C CNN
 	1    900  2100
 	-1   0    0    -1  
